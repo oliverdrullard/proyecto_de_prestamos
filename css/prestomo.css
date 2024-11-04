@@ -1,0 +1,73 @@
+.contenedor_pretamo{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #ffffff;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+
+.Titulo_prestamo{
+    border: solid 1px black;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #00173B ;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+}
+.contenedor_pretamo > form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form{
+    margin-left: 150px;
+}
+
+.input_prestamo{
+    background-color: #E5E5E5;
+    font-size: 25px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    
+}
+.form_prestamo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ruta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+   
+}
+label{
+    font-size: 20px;
+}
+
+.botones_prestamo{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: #66D857;
+}
+.pie_de_pagina{
+    margin-top: 97px;
+
+}
