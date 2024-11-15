@@ -1,0 +1,73 @@
+.resultado{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.resultado{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.grafico{
+    background-color: #cccccc52;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+
+.cuenta_resultado{
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+    
+}
+.cuenta_encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00173b9f ;
+    height: 60px;
+    border-bottom: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-left: none;
+    
+}
+table{
+    border-left: none;
+}
+th{
+    padding: 5px ;
+    background-color: #E5E5E5;
+}
+.tabla_resultado{
+    width: 100%;
+    font-size: 20px;
+
+    
+}
+.celdas_Dinero{
+    height: 200px;
+    border-top: none;
+    
+}
+.resultado_total{
+    width: 90;
+}
+
+
+footer{
+      margin-top: 148px;
+}
