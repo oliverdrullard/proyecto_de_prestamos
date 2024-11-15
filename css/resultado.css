@@ -1,8 +1,10 @@
 .resultado{
-    width: 90%;
+    width: 40%;
     max-width: 1000px;
     margin: auto;
     margin-top: 50px;
+    
+    
 }
 
 .resultado{
@@ -13,22 +15,24 @@
 
 .grafico{
     background-color: #cccccc52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+    font-size: 20px;
     width: 300px;
     height: 500px;
-    text-align: center;
     border-radius: 5px;
-
-
+    grid-row: span 2;
 }
 
 .cuenta_resultado{
     background-color: #ffffff;
     border-radius: 10px;
-    text-align: center;
-    
-    
-    
+    text-align: center; 
 }
+
 .cuenta_encabezado{
     display: flex;
     align-items: center;
@@ -44,16 +48,18 @@ table,th,td{
     border-collapse: collapse;
     border-left: none;
     
+    
 }
-table{
-    border-left: none;
-}
+
 th{
     padding: 5px ;
     background-color: #E5E5E5;
 }
+
+
 .tabla_resultado{
     width: 100%;
+    height: 100%;
     font-size: 20px;
 
     
@@ -62,12 +68,42 @@ th{
     height: 200px;
     border-top: none;
     
+    
 }
 .resultado_total{
     width: 90;
 }
 
+.resultado_total{
+    background-color: #ffffff;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    grid-column: 2/3;
+    margin-top: 10px;
+}
+.total_ganancias{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.total{
+    background-color: #66D857;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 
+
+}
 footer{
       margin-top: 148px;
 }
