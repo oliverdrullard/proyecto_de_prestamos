@@ -1,0 +1,75 @@
+.empleado_main{
+    width: 90%;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.padre_agregar_empleados{
+    text-align: center;
+    border-radius: 25px;
+}
+.raya{
+    width: 50%;
+    margin: 1px 150px;
+}
+.campos_primarios{
+    margin-top: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    font-size: 20px;
+}
+
+.input_primarios{
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    grid-gap: 50px;
+}
+
+.div_fecha{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40%;
+    font-size: 20px;
+}
+#fecha_inicio{
+    font-size: large;
+}
+
+.div_imagen_empleado{
+    border-radius: 10px;
+    width: 125px;
+    display: flex;
+    background-color: #D9D9D9 ;
+    font-size:larger;
+    margin-left: 40%;
+
+}
+/*Para quirar la decoracion que trae por defecto el campo de tipo file*/
+#agregar{
+    display: none;
+}
+
+
+.boton_empleado{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #66D857;
+    margin: 15px 25px 15px 25px;
+    
+}
+
+.pie_de_pagina{
+    margin-top: 215px;
+
+}
