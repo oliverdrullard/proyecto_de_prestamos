@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creacion y permisos de usuario</title>
+    <link rel="stylesheet" type="text/css" href="/css/estilos_generales.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="/css/inicio.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Josefin+Sans&family=Lora:wght@500&family=Playfair+Display:ital,wght@0,400;0,400..900;0,600;1,400..900&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/creacion_usuario.css">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="/img/logo_empresa.png" width="180px" alt="" srcset="">
+
+        <label for=""><img src="/img/" alt="" srcset=""></label>
+        <input class="buscador" type="search" name="" id="" placeholder="Buscar">
+
+        <img class="notificaciones" src="/img/campana.png" width="21px" alt="" srcset="">
+
+        <img class="idioma" src="/img/tierra.png" width="30px" alt="" srcset="">
+
+        <img class="usuario" src="/img/avatar.png" width="30px" alt="" srcset="">
+
+    </div>
+    <div class="navbar">
+        <ul>
+            <li>Clientes</li>
+            <li>Prestamos</li>
+            <li>Resultados</li>
+            <li>Cobro</li>
+        </ul>
+        <img class="menu" src="/img/menu.png" width="21px" alt="" srcset="">
+    </div>
+    <main>
+        <div class="padre_creacion_usuario">
+            <div class="formul_usuario_padre">
+                <div>
+                    <h2 class="h2_furmulario">Crear usuario</h2>
+                </div>
+               <div class="div_formularo_hijo">
+                
+                <form action="" class="formulario_form">
+                   <div class="from_agregar_usuario">
+                        <label for="">Codigo</label>
+                        <input type="number" name="" id="" class="input_creacion_usuario">
+                   </div>
+
+                   <div class="from_agregar_usuario">
+                    <label for="">Nombre</label>
+                    <input type="text" name="" id="" class="input_creacion_usuario">
+                   </div>
+
+                    <div class="from_agregar_usuario">
+                        <label for="">Correo</label>
+                        <input type="email" name="" id="" class="input_creacion_usuario">
+                    </div>
+
+                    <div class="from_agregar_usuario">
+                        <label for="">Rol</label>
+                        <input type="text" name="" id="" class="input_creacion_usuario">
+                    </div>
+
+                   
+                    <button type="submit" form="formulario_permisos" class="boton_creacion_usuario">Crear</button>
+                    <button type="reset" form="formulario_permisos" class="boton_creacion_usuario">Cancelar</button>
+                   
+                </form>
+               </div>
+            </div>
+            <div class="permisos_padre">
+                <h2>permisos</h2>
+                <div class="formulario_permisos">
+                    <form action="" id="formulario_permisos">
+                        <div>
+                            <input type="checkbox" name="todos" id="todos" class="input_permisos">
+                            <label for="todos">Todos los permisos</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="cobro" id="cobro" class="input_permisos">
+                            <label for="cobro">Cobro</label>
+                        </div>
+                       
+                        <div>
+                            <input type="checkbox" name="prestado" id="prestado" class="input_permisos">
+                            <label for="prestado">Prestado</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="informacion_cliente" id="informacion_cliente" class="input_permisos">
+                            <label for="informacion_cliente">Informacion de los clientes</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="resultado" id="resultado" class="input_permisos">
+                            <label for="resultado">Resultados</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" name="agregar_gasto" id="agregar_gasto" class="input_permisos">
+                            <label for="agregar_gasto">Agregar gasto</label>
+                        </div>
+                        
+                       <div>
+                        <input type="checkbox" name="agregar_prestamo" id="agregar_prestamo" class="input_permisos">
+                        <label for="agregar_prestamo">Agregar prestado</label>
+                       </div>
+                        
+                        <div>
+                            <input type="checkbox" name="lista_cliente" id="lista_cliente" class="input_permisos">
+                            <label for="lista_cliente">Lista de clientes</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="lista_gastos" id="lista_gastos" class="input_permisos">
+                            <label for="lista_gastos">Lista de gastos</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="creacion_usuario" id="creacion_usuario" class="input_permisos">
+                            <label for="creacion_usuario">Creacion de usuario</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="sugerencias" id="sugerencias" class="input_permisos">
+                            <label for="sugerencias">Sugerencias</label>
+                        </div>
+                       
+                        <div>
+                            <input type="checkbox" name="nesecitas_ayuda" id="nesecitas_ayuda" class="input_permisos">
+                            <label for="nesecitas_ayuda">Nesecitas ayuda</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="detalle_gasto" id="detalle_gasto" class="input_permisos">
+                            <label for="detalle_gasto">Detalle de gastos</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="detalle_empleado" id="detalle_empleado" class="input_permisos">
+                            <label for="detalle_empleado">Detalle de empleados</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="agregar_empleado" id="agregar_empleado" class="input_permisos">
+                            <label for="agregar_empleado">Agregar empleado</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="pie_de_pagina">
+        <div class="imagenes">
+            <figure>
+                <img src="/img/youtube.png" width="30px" alt="" srcset=""><br>
+                <caption>Youtube</caption>
+            </figure>
+            <figure>
+                <img src="/img/ayudar.png" width="30px" alt="" srcset=""><br>
+                <caption>Ayuda</caption>
+            </figure>
+            <figure>
+                <img src="/img/sugerencia.png" width="30px" alt="" srcset=""><br>
+                <caption>Sugerencias</caption>
+            </figure>
+            <figure>
+                <img src="/img/derechos-de-autor.png" width="30px" alt="" srcset=""><br>
+                <caption>2024</caption>
+            </figure>
+
+        </div>
+    </footer>
+</body>
+</html>
