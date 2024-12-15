@@ -1,0 +1,119 @@
+main{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+.titulo_imagen_padre{
+    font-size: 2rem;
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+    color: #ffff;
+    background-color: #D5D5D534;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_padre_imagen{
+    width: 300px;
+    height: 125px;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg,#77C5CC,#FFFFFF22,#FFFFFF11)
+    
+
+    
+}
+.div_imagen{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.imagen_empleado{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.seccion_informacion{
+    width: 90%;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+   
+
+}
+
+.div_titulo_empleado{
+  text-align: center;  
+  color: #00173B;
+  margin-top: 20px;
+}
+
+.div_padre_inf_empleado{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.div_padre_inf_empleado{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.div_padre_campos{
+    margin-top: 15px;
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+.campo_info_empleado{
+    width: 200px;
+    height: 35px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_boton_editar_empleado_padre{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.div_boton_editar_empleado{
+    width: 200px;
+    height: 70px;
+    background-color: #00173B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.editar_empleado{
+    font-size: 20px;
+    width: 170px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #66D857;
+    border: none;
+    border-radius: 10px;
+}
+
+.pie_de_pagina{
+    margin-top: 192px;
+
+}
