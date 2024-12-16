@@ -1,0 +1,106 @@
+main{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.div_padre_sugerencias{
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #ffffff; 
+}
+
+.div_padre_titulo_sugerencias{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_titulo_sugerencias{
+    width: 200px;
+    padding: 5px;
+    margin-top: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#00173B,#003EA1) 
+}
+.div_padre_mensaje_gracias{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.div_padre_mensaje_gracias{
+   display: flex;
+
+}
+
+.div_hijo_mensaje_gracias{
+    display: flex;
+    margin-right: 50px;
+
+
+}
+.imagen_desarrolladores{
+    width: 200px;
+    margin-right: 20px;
+}
+.div_formulario_codigo{
+    margin-right: 10px;
+}
+
+#codigo_empleado{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: #D9D9D9;
+}
+
+.div_padre_deja_tu_sugerencia{
+    margin-top: 20px;
+    width: 95%;
+    
+    
+
+}
+
+.div_formulario_textarea{
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex; 
+}
+
+textarea{
+    text-align: center;
+    font-size: 20px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+.campos_sugerencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.div_botones_sugerencias{
+    text-align: center;
+}
+
+.botones_sugerencias{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    background :linear-gradient(90deg,#66D857,#36722E);
+
+    
+
+}
