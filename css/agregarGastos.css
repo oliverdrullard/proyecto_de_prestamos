@@ -118,46 +118,72 @@ ul li:nth-child(4) {
 
 }
 
-
 ul li:hover {
     background-color: #06f5cd;
     transition: all 1s;
     color: #00173B;
 }
 
-.contenedor_tabla{
-    width: 80%;
-    height: 335px;
-    top: 25%;
-    left: 9%;
-    border-radius: none;
+.formulario{
+    width: 25%;
+    height: 300px;
+    background-color: #ffffff;
     display: flex;
-    position: absolute;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 27%;
+    left: 36%;
+    border-radius: 10px;
 }
 
-.tabla_informacion{
-   background-color: white;
-   border-radius: 10px;
+.formulario .nomb-form{
+    top: 15px;
+    position: absolute;
 }
 
-.tabla_informacion th{
-    background-color: #E5E5E5;
-    font-weight: bold;
+.formulario .linea{
+    width: 120px;
+    height: 5px;
+    background-color: #00173B;
+    position: absolute;
+    top: 50px;
+    border-radius: 10px;
 }
-.tabla_informacion th:nth-child(1){
-    border-top-left-radius: 10px;
+form{
+    width: 60%;
+    height: 220px;
+    position: relative;
+    margin-top: 35px;
 }
 
-.tabla_informacion th:nth-child(5){
-    border-top-right-radius: 10px;
+form input{
+    width: 200px;
+    height: 35px;
+    background-color: #DFDFDF;
+    display: block;
+    margin-top: 15px;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
 }
 
-.tabla_informacion .info_cliente:hover{
-     background-color: #66D857;
-}
 
+form input::placeholder{
+    position: absolute;
+    margin-left: 10px;
+}
+form button{
+    width: 70px;
+    height: 30px;
+    background-color: #66D857;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
 
 footer {
     width: 100%;

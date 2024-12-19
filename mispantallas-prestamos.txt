@@ -1,6 +1,6 @@
-detalle gasto(hecho)
-necesitas ayuda(hecho)
-agregar gasto(hecho)
+detalle gasto
+necesitas ayuda
+agregar gasto
 lista de gasto(hecho)
 submenu(todas las pantallas)
 
