@@ -33,7 +33,9 @@ main{
    display: flex;
 
 }
-
+.div_padre_mensaje_gracias p{
+    text-align: justify;
+}
 .div_hijo_mensaje_gracias{
     display: flex;
     margin-right: 50px;
@@ -59,6 +61,7 @@ main{
 .div_padre_deja_tu_sugerencia{
     margin-top: 20px;
     width: 95%;
+    display: flex;
     
     
 
@@ -100,7 +103,68 @@ textarea{
     border: none;
     color: #ffffff;
     background :linear-gradient(90deg,#66D857,#36722E);
+}
 
+.pie_de_pagina{
+    margin-top: 126px;
+
+}
+#mensaje_compromiso{
+    text-align: justify;
+}
+
+@media(max-width: 800px){
+    main{
+        width: 95%;
     
+        
+    }
+    .div_padre_sugerencias{
+        width: 90%;
+        text-align: center;
+    }
+    .div_padre_mensaje_gracias{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .div_hijo_mensaje_gracias{
+        display: flex;
+        flex-direction: column; 
+    }
+    .imagen_desarrolladores{
+        width: 300px;
+    }
+    .div_formulario_codigo{
+        margin-top: 20px;
+    }
+    .div_padre_deja_tu_sugerencia{
+        display: flex;
+        flex-direction: column;
+    }
+    #mensaje_compromiso{
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .div_formulario_textarea{
+        margin: auto;
+    }
+    textarea{
+        width: 400px;
+        
+    }
+}
+
+@media(min-width: 768px){
+    main{
+        width: 95%;
+    }
+    
+
+}
+@media (min-width: 1490px){
+    main{
+        width: 50%;
+    }
 
 }
