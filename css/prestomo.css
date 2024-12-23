@@ -5,9 +5,10 @@
     margin-bottom: 10px;
     text-align: center;
     margin-top: 25px;
-    background-color: #ffffff;
+    background-color:#ffffff;
     border: solid 1px black;
     border-radius: 20px;
+    
 }
 
 
@@ -69,5 +70,47 @@ label{
 }
 .pie_de_pagina{
     margin-top: 97px;
+
+}
+
+/*Responsivo*/
+
+@media(max-width: 800px){
+    .contenedor_pretamo > form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .form_prestamo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media(max-width: 200px){
+    .contenedor_pretamo{
+        min-width: 184px;
+    }
+    .contenedor_pretamo > form{
+        margin-left: auto;
+        text-align: center;
+    }
+    .form_prestamo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form_prestamo input{
+        width: 150px;
+        font-size: 20px;
+        
+    }
+    .form_prestamo label{
+        font-size: 20px;
+        
+    }
 
 }
