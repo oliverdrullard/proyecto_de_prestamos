@@ -1,7 +1,6 @@
 .padre_creacion_usuario{
     width: 90%;
     max-width: 1000px;
-    height: 500px;
     margin: auto;
     margin-top: 50px;
     background-color: #ffffff;
@@ -84,4 +83,21 @@ h2{
 .pie_de_pagina{
     margin-top: 128px;
 
+}
+
+/*Responsi*/
+
+@media screen and (max-width:838px) {
+    .padre_creacion_usuario{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+
+       
+    }
+    .formul_usuario_padre{
+        width: 300px;
+        margin: auto;
+    }
 }
