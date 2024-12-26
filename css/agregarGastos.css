@@ -62,7 +62,7 @@ body {
     left: 94%;
 }
 
-ul {
+.ul-1 {
     width: auto;
     height: 35px;
     /*background-color: rgb(197, 0, 0);*/
@@ -71,10 +71,11 @@ ul {
     align-items: center;
     margin-left: 40px;
 
+
 }
 
 
-ul li {
+.ul-1 .li-1 {
     display: inline-block;
     position: relative;
     margin: 0px;
@@ -89,28 +90,28 @@ ul li {
 }
 
 
-ul li:first-child {
+.ul-1 .li-1:first-child {
     width: 270px;
     height: 33px;
     border-radius: 3px;
 
 }
 
-ul li:nth-child(2) {
+.ul-1 .li-1:nth-child(2) {
     width: 270px;
     height: 33px;
     border-radius: 3px;
 
 }
 
-ul li:nth-child(3) {
+.ul-1 .li-1:nth-child(3) {
     width: 270px;
     height: 33px;
     border-radius: 3px;
 
 }
 
-ul li:nth-child(4) {
+.ul-1 .li-1:nth-child(4) {
     width: 270px;
     height: 33px;
     border-radius: 3px;
@@ -118,10 +119,43 @@ ul li:nth-child(4) {
 
 }
 
-ul li:hover {
+
+.ul-1 .li-1:hover {
     background-color: #06f5cd;
     transition: all 1s;
     color: #00173B;
+}
+
+.contenedor{
+    width: 200px;
+    height: 200px;
+    background-color: #00173B;
+    margin-top: 15%;
+}
+
+.submenu {
+    width: 190px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 83%;
+    display: none;
+
+}
+
+.submenu .li-2 {
+    list-style: none;
+    line-height: 1.7;
+}
+
+.contenedor:hover  .submenu{
+    cursor: pointer;
+    display: flex;
+    top: 23%;
+    z-index: 1;
 }
 
 .formulario{
