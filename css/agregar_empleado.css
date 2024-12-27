@@ -73,3 +73,24 @@
     margin-top: 215px;
 
 }
+
+
+/*Responsi*/
+
+@media screen and (max-width:700px) {
+    .campos_primarios{
+        display: flex;
+        flex-direction: column; 
+    }
+    .raya{
+        width: 75%;
+        margin: 1px 40px;
+    }
+    .div_fecha{
+        margin-left: 30%;
+    }
+    .div_imagen_empleado{
+        margin-left: 30%;
+    }
+    
+}
