@@ -6,8 +6,9 @@ main{
 }
 .titulo_imagen_padre{
     font-size: 2rem;
-    width: 90%;
+    width: 50%;
     height: 150px;
+    margin: auto;
     border-radius: 10px;
     color: #ffff;
     background-color: #D5D5D534;
@@ -22,6 +23,7 @@ main{
     height: 125px;
     margin-right: 20px;
     border-radius: 10px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     background: linear-gradient(90deg,#77C5CC,#FFFFFF22,#FFFFFF11)
@@ -42,9 +44,10 @@ main{
     border-radius: 10px;
 }
 .seccion_informacion{
-    width: 90%;
+    width: 50%;
     height: 300px;
     margin-top: 15px;
+    margin: auto;
     border-radius: 10px;
     background-color: #ffffff;
    
@@ -116,4 +119,44 @@ main{
 .pie_de_pagina{
     margin-top: 192px;
 
+}
+
+/*Responsividad*/
+
+@media screen and (max-width: 1406px) {
+    .seccion_informacion{
+        width: 90%;
+
+    }
+    .titulo_imagen_padre{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    .div_padre_campos{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .div_padre_inf_empleado{
+        display: flex;
+        flex-direction: column;
+    }
+    .div_padre_campos{
+        flex-direction: row;
+    }
+    .seccion_informacion{
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 400px) { 
+
+    .titulo_imagen_padre h1{
+        font-size: 25px;
+        
+    }
 }
