@@ -1,0 +1,12 @@
+detalle gasto(hecho)
+necesitas ayuda(hecho)
+agregar gasto(hecho)
+lista de gasto(hecho)
+submenu(todas las pantallas)
+
+
+HTML
+css
+git and github
+python
+django
