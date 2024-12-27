@@ -1,9 +1,8 @@
 .resultado{
-    width: 40%;
+    width: 90%;
     max-width: 1000px;
     margin: auto;
     margin-top: 50px;
-    
     
 }
 
@@ -24,7 +23,7 @@
     width: 300px;
     height: 500px;
     border-radius: 5px;
-    grid-row: span 2;
+   
 }
 
 .cuenta_resultado{
@@ -106,4 +105,36 @@ th{
 }
 footer{
       margin-top: 148px;
+}
+
+/*Responsividad*/
+
+@media screen and (max-width:680px) {
+    .resultado{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .grafico{
+        display: flex;
+        border-radius: 20px;
+        width: 600px;
+        margin-bottom: 10px;
+    }
+    .cuenta_resultado{
+        width: 600px;
+    }
+    .resultado_total{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 160px) {
+    .resultado{
+        width: 300px;
+    }
+    .grafico{
+        width: 300px;
+    }
+        
 }
