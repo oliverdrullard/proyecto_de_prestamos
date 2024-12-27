@@ -86,3 +86,57 @@ main{
     margin-top: 312px;
 
 }
+
+/*Responsivo*/
+
+@media(max-width:1400px){
+    .seccion_detalle_cliente{
+        width: 80%;
+    }
+     
+}
+
+@media(max-width:855px) {
+    .seccion_detalle_cliente{
+        width: 90%;
+        
+    }
+    
+}
+@media screen and (max-width: 770px) {
+    .seccion_detalle_cliente{
+        height: 40%;
+    }
+    .div_padre_info_cliente{
+        margin: auto;
+        display: flex;
+        flex-direction: column;  
+
+    }
+    .campo_informacion{
+        padding: 5px;
+        
+    }
+    .campo_informacion{
+        flex-direction: column;
+        
+    }
+    .div_padre_informacion{
+        margin: auto;
+    }
+    .div_boton_editar{
+        margin: auto;
+    }
+}
+@media screen and (max-width:500px) {
+    .titulo_detalle_cliente{
+        width: 70%;
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+}
