@@ -237,3 +237,8 @@ footer .imagenes {
     justify-content: space-between;
     align-items: center;
 }
+
+footer{
+    margin-top: 600px;
+
+}
