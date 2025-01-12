@@ -20,19 +20,12 @@
 
     color: #ffffff;
     font-size: 20px;
-    width: 700px;
     height: 400px;
     border-radius: 5px;
     margin-right: 30px;
    
 }
-.grafico{
-    background-image: url(/img/graficos.png);
-    background-position: cover;
-    background-size: center;
-    background-repeat: no-repeat;  
-    
-}
+
 
 .cuenta_resultado{
     background-color: #ffffff;
@@ -82,7 +75,7 @@ th{
 }
 
 .resultado_total{
-    background-color: #ffffff;
+    background-color: #00173B;
     height: 50px;
     border-radius: 5px;
     display: flex;
@@ -90,9 +83,10 @@ th{
     justify-content: center;
     font-size: 20px;
     grid-column: 2/3;
-    margin-top: 10px;
+    
 }
 .total_ganancias{
+    background-color: #ffffff;
     width: 50%;
     height: 50px;
     display: flex;
