@@ -173,6 +173,7 @@ body {
 .tabla_informacion{
    background-color: white;
    border-radius: 10px;
+   
 }
 
 .tabla_informacion th{
@@ -183,13 +184,14 @@ body {
     border-top-left-radius: 10px;
 }
 
-.tabla_informacion th:nth-child(5){
+.tabla_informacion th:nth-child(4){
     border-top-right-radius: 10px;
 }
 
 .tabla_informacion .info_cliente:hover{
-     background-color: #66D857;
+    background-color: #66D857;
 }
+
 
 
 footer {
@@ -209,4 +211,25 @@ footer .imagenes {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 412px){
+    .contenedor_tabla{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -60px;
+        top: 122px;
+        border-radius: 10px;
+    }
+
+    .tabla_informacion{
+        width: 70%;
+        height: 180px;
+        font-size: 13px;
+        border-radius: 10px;
+    }
 }
