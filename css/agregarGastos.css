@@ -237,3 +237,21 @@ footer .imagenes {
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+@media (min-width: 412px) {
+    
+    .formulario{
+        width: 65%;
+        display: flex;
+        top: 160px;
+        left: 9px;
+        position: absolute;
+    }
+
+    .formulario form{
+        width: auto;
+    }
+}
+
