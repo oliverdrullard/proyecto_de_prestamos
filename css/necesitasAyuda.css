@@ -251,3 +251,38 @@ footer .imagenes {
     justify-content: space-between;
     align-items: center;
 }
+
+@media (min-width:412px){
+    .instruccion{
+        width: 67%;
+        height: 280px;
+        top: 18%;
+        left: 6px;
+        display: block;
+    } 
+
+    .instruccion .preguntas{
+        width: 95%;
+        height: 260px;
+        background-size: 100% 250px;
+        
+    }
+
+    .instruccion .texto{
+        width: 100%;
+        height: 180px;
+        font-size: 28px;
+        
+    }
+
+    .formulario-chat{
+        width: 67%;
+        top: 500px;
+        left: 5px;
+    }
+  
+    footer{
+        margin-top: 520px;
+     
+    }
+}
