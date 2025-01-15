@@ -61,3 +61,34 @@ body{
     top: 90px;
     position: absolute;
 }
+
+@media (min-width: 412px){
+    .container-1{
+        width: 67%;
+        left: 2%;
+    }
+
+
+    .container-1 img{
+        width: 25%;
+        margin-top: 40px;
+        left: 20px;
+    }
+    .container-2{
+        width: 60%;
+    }
+    
+    .container-2 img{
+        width: 75%;
+        top: 50px;
+        left: 25px;
+    }
+    .container-2 input{
+        width: 145px;
+        left: 5px;
+    }
+
+    .container-2 .boton{
+       left: 54px;
+    }
+}
