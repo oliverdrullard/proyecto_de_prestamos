@@ -161,13 +161,14 @@ body {
 .contenedor_tabla{
     width: 80%;
     height: 335px;
-    top: 25%;
+    margin-top: 5%;
     left: 9%;
     border-radius: none;
     display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
 }
 
 .tabla_informacion{
@@ -213,23 +214,32 @@ footer .imagenes {
     align-items: center;
 }
 
-@media (max-width: 412px){
+/*movil*/
+@media (min-width: 393px) {
     .contenedor_tabla{
-        width: auto;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        left: -60px;
-        top: 122px;
-        border-radius: 10px;
+       width: 85%;
+       font-size: 14px;
+       top: 15%;
+       left: 8%;
     }
 
-    .tabla_informacion{
-        width: 70%;
-        height: 180px;
-        font-size: 13px;
-        border-radius: 10px;
+}
+
+/*tablet*/
+@media (min-width: 820px){
+    .contenedor_tabla{
+        width: 95%;
+        font-size: 15px;
+        top: 12%;
+        left: 3%;
     }
 }
+ /*laptop*/
+ @media (min-width: 1559px){
+    .contenedor_tabla{
+        width: 90%;
+        font-size: 18px;
+        top: 16%;
+        left: 5%;
+    }
+ }

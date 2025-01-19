@@ -254,10 +254,10 @@ footer .imagenes {
 
 @media (min-width:412px){
     .instruccion{
-        width: 67%;
+        width: 90%;
         height: 280px;
-        top: 18%;
-        left: 6px;
+        top: 21%;
+        left: 20px;
         display: block;
     } 
 
@@ -276,9 +276,9 @@ footer .imagenes {
     }
 
     .formulario-chat{
-        width: 67%;
-        top: 500px;
-        left: 5px;
+        width: 90%;
+        top: 460px;
+        left: 20px;
     }
   
     footer{
