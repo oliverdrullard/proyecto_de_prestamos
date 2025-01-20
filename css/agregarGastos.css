@@ -238,20 +238,32 @@ footer .imagenes {
     align-items: center;
 }
 
-
-
-@media (min-width: 412px) {
-    
+@media (min-width: 393px){
     .formulario{
-        width: 65%;
-        display: flex;
-        top: 160px;
-        left: 9px;
-        position: absolute;
+        width: 70%;
+        top: 18%;
+        left: 15%;
     }
 
-    .formulario form{
+    form{
         width: auto;
     }
 }
 
+@media (min-width: 820px){
+    .formulario{
+        width: 38%;
+        top: 13%;
+        left: 33%;
+
+    }
+}
+
+@media (min-width: 1559px){
+    .formulario{
+        width: 20%;
+        top: 17%;
+        left: 37%;
+
+    }
+}
