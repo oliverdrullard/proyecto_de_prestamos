@@ -10,3 +10,20 @@ css
 git and github
 python
 django
+
+
+responsive:
+
+detalle del gasto
+necesitas ayuda
+agregar gasto
+lista de gasto
+clientes 
+inicio
+login
+
+
+falta:
+realizar navbar responsivo
+actualizar footer
+

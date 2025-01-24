@@ -61,3 +61,72 @@ body{
     top: 90px;
     position: absolute;
 }
+
+@media (min-width: 393px){
+    .container-1{
+        width: 95%;
+        top: 25%;
+        left: 3%;
+    }
+
+
+    .container-1 img{
+        width: 25%;
+        margin-top: 40px;
+        left: 25px;
+    }
+    .container-2{
+        width: 60%;
+        
+    }
+    
+    .container-2 .logo{
+        width: 75%;
+        top: 50px;
+        left: 25px;
+    }
+    .container-2 input{
+        width: 145px;
+        margin-left: 10px;
+    }
+
+    .container-2 .boton{
+       margin-left: -10px;
+    }
+}
+
+@media (min-width: 820px){
+    .container-1{
+        width: 60%;
+        top: 33%;
+        left: 180px;
+    }
+    
+    .container-1 img{
+        width: 25%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .container-2 input{
+        width: 60%;
+        margin-left: 40px;
+    }
+
+    .container-2 .logo{
+        margin-top: 30px;
+        margin-left: 22px;
+    }
+
+    .container-2 .boton{
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 1559px){
+    .container-1{
+        width: 35%;
+        top: 30%;
+        left: 35%;
+    }
+}
