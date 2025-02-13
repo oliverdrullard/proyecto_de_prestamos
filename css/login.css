@@ -97,36 +97,79 @@ body{
 
 @media (min-width: 820px){
     .container-1{
-        width: 60%;
-        top: 33%;
-        left: 180px;
+        width: 70%;
+        height: 500px;
+        top: 26%;
+        left: 130px;
     }
     
     .container-1 img{
         width: 25%;
-        margin-top: 20px;
+        margin-top: 60px;
         margin-left: 10px;
     }
 
-    .container-2 input{
+    .container-2{
         width: 60%;
-        margin-left: 40px;
+        height: 483px;
+    }
+
+    .container-2 input{
+        width: 70%;
+        height: 40px;
+        top: 40%;
+        margin-left: 20px;
+        font-size: 16px;
     }
 
     .container-2 .logo{
-        margin-top: 30px;
+        margin-top: 50px;
         margin-left: 22px;
     }
 
     .container-2 .boton{
-        margin-left: 40px;
+        width: 30%;
+        height: 30px;
+        top: 45%;
+        margin-left: 33px;
+        font-size: 16px;
     }
 }
 
 @media (min-width: 1559px){
     .container-1{
-        width: 35%;
-        top: 30%;
-        left: 35%;
+        width:50%;
+        height: 600px;
+        top: 18%;
+        left: 400px;
+    }
+    
+    .container-1 img{
+        margin-top: 70px;
+        margin-left: 40px;
+    }
+    
+    .container-2{
+        width: 60%;
+        height: 585px;
+    }
+
+    .container-2 .logo{
+        top: 13%;
+        left: 45px;
+    }
+
+    .container-2 input{
+        width: 70%;
+        height: 55px;
+        left: 55px;
+        font-size: 19px;
+    }
+
+    .container-2 .boton{
+        width: 30%;
+        height: 33px;
+        left: 140px;
+        font-size: 19px;
     }
 }

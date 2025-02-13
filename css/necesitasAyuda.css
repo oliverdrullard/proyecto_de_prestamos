@@ -1,131 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0px;
-}
-
-body {
-    background-color: #00173B;
-}
-
-.header .logo {
-    margin-top: 10px;
-    position: relative;
-}
-
-.header .buscador {
-    width: 400px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    position: absolute;
-    margin-top: 24px;
-    left: 53%;
-}
-
-.header .buscador::placeholder {
-    position: absolute;
-    margin-left: 20px;
-}
-
-.header .idioma {
-    position: absolute;
-    left: 90.5%;
-    margin-top: 28px;
-}
-
-
-.header .notificaciones {
-    position: absolute;
-    left: 87%;
-    margin-top: 31px;
-}
-
-
-.header .usuario {
-    position: absolute;
-    left: 95%;
-    margin-top: 28px;
-}
-
-.navbar {
-    width: 95%;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.navbar .menu {
-    position: absolute;
-    left: 94%;
-}
-
-.ul-1 {
-    width: auto;
-    height: 35px;
-    /*background-color: rgb(197, 0, 0);*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 40px;
-
-
-}
-
-
-.ul-1 .li-1 {
-    display: inline-block;
-    position: relative;
-    margin: 0px;
-    color: #00173B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 5px;
-    color: rgb(105, 105, 105);
-    background-color: white;
-}
-
-
-.ul-1 .li-1:first-child {
-    width: 270px;
-    height: 33px;
-    border-radius: 3px;
-
-}
-
-.ul-1 .li-1:nth-child(2) {
-    width: 270px;
-    height: 33px;
-    border-radius: 3px;
-
-}
-
-.ul-1 .li-1:nth-child(3) {
-    width: 270px;
-    height: 33px;
-    border-radius: 3px;
-
-}
-
-.ul-1 .li-1:nth-child(4) {
-    width: 270px;
-    height: 33px;
-    border-radius: 3px;
-
-
-}
-
-
-.ul-1 .li-1:hover {
-    background-color: #06f5cd;
-    transition: all 1s;
-    color: #00173B;
-}
-
 .contenedor{
     width: 200px;
     height: 200px;
@@ -230,25 +102,6 @@ textarea ::placeholder {
     color: #fcfcfc;
 }
 
-footer {
-    width: 100%;
-    height: 90px;
-    background-color: white;
-    display: flex;
-    margin-top: 378px;
-    justify-content: center;
-    align-items: center;
-
-}
-
-footer .imagenes {
-    width: 60%;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 @media (min-width: 393px){
     .instruccion{
         width: 90%;
@@ -285,55 +138,55 @@ footer .imagenes {
         top: 460px;
         left: 20px;
     }
-  
-    footer{
-        margin-top: 520px;
-     
-    }
+
 }
 
 @media (min-width: 820px){
     .instruccion{
         width: 90%;
-        height: 300px;
+        height: 400px;
         display: flex;
-        top: 13%;
+        top: 17%;
         left: 5%;
     }
 
     .instruccion .preguntas{
         width: 100%;
-        height: 290px;
+        height: 380px;
         margin-top: 0px;
-        background-size: 100% 290px;
-        margin-top: 10px;
+        background-size: 100% 380px;
+        margin-top: 20px;
     }
 
     .instruccion .texto{
         width: 80%;
-        height: 300px;
-        font-size: 40px;
+        height: 380px;
+        font-size: 50px;
         padding: 10px;
     }
 
     .formulario-chat{
         width: 90%;
-        top: 360px;
+        top: 500px;
         left: 5%;
+    }
+    .formulario-chat textarea{
+        height: 150px;
+
     }
 }
 
 @media (min-width: 1559px){
     .instruccion{
         width: 90%;
-        height: 400px;
+        height: 430px;
         top: 18%;
     }
 
     .instruccion .preguntas{
         width: 100%;
-        height: 390px;
-        background-size: 95% 390px;
+        height: 410px;
+        background-size: 95% 420px;
     }
     
     .instruccion .texto{
@@ -345,6 +198,7 @@ footer .imagenes {
     }
 
     .formulario-chat{
-        top: 480px;
+        top: 505px;
     }
+
 }
