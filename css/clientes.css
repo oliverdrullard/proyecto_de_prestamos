@@ -33,12 +33,12 @@
 }
 
 /*Para movil*/
-@media (min-width: 393px) {
+@media (max-width: 393px) {
     .contenedor_tabla {
         width: 93%;
         height: 400px;
         font-size: 16px;
-        top: 18%;
+        top: 15%;
         left: 5%;
     }
 
@@ -60,6 +60,10 @@
         width: 95%;
         height: 500px;
     }
+
+    .flecha img{
+        display: none;
+    }
 }
 
 @media (min-width: 1559px){
@@ -75,5 +79,9 @@
         width: 95%;
         height: 600px;
 
+    }
+
+    .flecha img{
+        display: none;
     }
  }

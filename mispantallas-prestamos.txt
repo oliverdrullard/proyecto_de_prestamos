@@ -14,16 +14,16 @@ django
 
 responsive:
 
-detalle del gasto
-necesitas ayuda
-agregar gasto
-lista de gasto
-clientes 
-inicio
-login
+detalle del gasto(hecho)
+necesitas ayuda(hecho)
+agregar gasto(hecho)
+lista de gasto(hecho)
+clientes(hecho)
+inicio(hecho)
+login(hecho)
 
-
+realizar navbar responsivo(hecho para pantalla de 1559px y 820px)
+actualizar footer(hecho)
 falta:
-realizar navbar responsivo
-actualizar footer
-
+poner el navbar responsivo para movil
+y ver que error esta teniendo en la pantalla de la laptop porque se ve distorsionado pero en las medidas que tiene el media query se ve perfecto.

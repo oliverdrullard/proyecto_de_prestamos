@@ -81,7 +81,7 @@
     margin: 5px;
 }
 
-@media (min-width: 393px){
+@media (max-width: 393px){
     .contenido{
         width: 90%;
         display: block;

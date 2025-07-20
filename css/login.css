@@ -62,7 +62,7 @@ body{
     position: absolute;
 }
 
-@media (min-width: 393px){
+@media (max-width: 393px){
     .container-1{
         width: 95%;
         top: 25%;

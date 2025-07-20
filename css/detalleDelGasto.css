@@ -1,34 +1,4 @@
-.contenedor {
-    width: 200px;
-    height: 200px;
-    background-color: #00173B;
-    margin-top: 15%;
-}
 
-.submenu {
-    width: 190px;
-    height: 150px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 83%;
-    display: none;
-
-}
-
-.submenu .li-2 {
-    list-style: none;
-    line-height: 1.7;
-}
-
-.contenedor:hover .submenu {
-    cursor: pointer;
-    display: flex;
-    top: 23%;
-    z-index: 1;
-}
 
 .principal {
     width: 80%;
