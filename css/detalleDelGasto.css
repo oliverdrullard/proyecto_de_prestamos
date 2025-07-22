@@ -157,20 +157,22 @@ body {
     top: 23%;
     z-index: 1;
 }
+/* contendor blanco */
 .principal {
-    width: 80%;
-    height: 300px;
+    width: 50%;
+    min-width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 27%;
-    left: 130px;
+    text-align: center;
     border-radius: 10px;
 }
 
 .principal .titulo-detalleGasto {
-    width: 70%;
+    width: 20%;
     height: 50px;
     background-color: #00173B;
     display: flex;
@@ -186,12 +188,15 @@ body {
 
 .principal .datosDeGastos {
     width: 90%;
-    height: 220px;
+    height: auto;
     background-color: rgb(255, 255, 255);
     display: block;
     align-items: center;
     margin-top: 52px;
+    
 }
+
+
 
 .datosDeGastos .contenedor-gasto {
     display: inline-block;
@@ -243,3 +248,16 @@ footer .imagenes {
     justify-content: space-between;
     align-items: center;
 }
+
+/*Responsividad*/
+
+@media screen and (max-width:680px) {
+    .principal .titulo-detalleGasto{
+        width: 50%;
+    }
+    
+        
+    }
+    
+    
+        
