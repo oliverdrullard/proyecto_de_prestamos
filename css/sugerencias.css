@@ -141,7 +141,9 @@ textarea{
     }
     #mensaje_compromiso{
         margin-bottom: 20px;
+        margin-left: 10px;
         text-align: justify;
+        
     }
     .div_formulario_textarea{
         margin: auto;
